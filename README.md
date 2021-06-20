@@ -9,6 +9,8 @@
 
 <p align="center">
 <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/tag/XXCoreRangerX/astro-xresources?color=%2328293D&logo=github&logoColor=%23ECEFF4&style=flat-square&colorA=1B1C1E">
+
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/xxcorerangerx/astro-xresources?color=%2328293D&logo=github&logoColor=%23ECEFF4&style=flat-square&colorA=1B1C1E">
 </p>
 
 <p align="center"><img alt="Astro Xresources" src="https://user-images.githubusercontent.com/61242573/122646060-a8bac000-d11d-11eb-95f3-c3f1a7725fb3.png"></p>
@@ -21,13 +23,13 @@ Detailed information about Xresources configurations can be found in the [Arch L
 <br>
 
 ### Manual
-Copy the content of the `astro` file into the `~/.Xresources` or `~/.Xdefaults` file and reload the settings with `xrdb`.
+Copy the contents of `astro` file into your `~/.Xresources` or `~/.Xdefaults` file and reload the settings with `xrdb`.
 
 ### Via `#include`
-Copy the `astro` file to any place and import it via `#include "/path/to/astro"`.
+Copy `astro` file to any place and import it via `#include "/path/to/astro"`.
 
 ### Via `merge`
-To merge the color theme into your current settings copy the `astro` file to any place and run `xrdb -merge path/to/astro`.
+To merge the color theme into your current settings copy `astro` file to any place and run `xrdb -merge path/to/astro`.
 
 ---
 
